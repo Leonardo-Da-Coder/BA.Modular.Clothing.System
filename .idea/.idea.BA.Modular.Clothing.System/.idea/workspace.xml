@@ -6,12 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="30f64974-6ae7-4cbc-86a4-7245ab43e729" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BA.Modular.Clothing.System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BA.Modular.Clothing.System/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BaseModel.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BaseModel.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlackChino.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlackChino.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlackTshirt.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlackTshirt.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlackTshirt2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlackTshirt2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenChino.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenChino.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ModularClothing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ModularClothing.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ModularClothingSystemManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ModularClothingSystemManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +105,7 @@
       <workItem from="1727023243060" duration="19000" />
       <workItem from="1727023282389" duration="5000" />
       <workItem from="1727023334046" duration="3392000" />
+      <workItem from="1727557811363" duration="2360000" />
     </task>
     <servers />
   </component>

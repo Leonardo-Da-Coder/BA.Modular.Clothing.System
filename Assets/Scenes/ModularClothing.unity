@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &347807799
+--- !u!1001 &459580060
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -175,6 +175,66 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: Models.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: PantsModels.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: TshirtModels.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: Models.Array.data[0].name
+      value: BlackChino
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: Models.Array.data[1].name
+      value: GreenChino
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: Models.Array.data[0].Model
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: 5451e9566de6ae14d8241e1fc2dab39e, type: 3}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: Models.Array.data[1].Model
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: d687c8f33e41b6d478b37ab734df19cf, type: 3}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: PantsModels.Array.data[0].name
+      value: BlackChino
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: PantsModels.Array.data[1].name
+      value: GreenChino
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: PantsModels.Array.data[0].Model
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: 5451e9566de6ae14d8241e1fc2dab39e, type: 3}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: PantsModels.Array.data[1].Model
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: d687c8f33e41b6d478b37ab734df19cf, type: 3}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: TshirtModels.Array.data[0].name
+      value: BlackTshirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: TshirtModels.Array.data[1].name
+      value: BlackTshirt2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: TshirtModels.Array.data[0].Model
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: 65c87632d273c5445a2fcb840e0bd2ef, type: 3}
+    - target: {fileID: 6700621512987165469, guid: 62ec02c56c0e7c142a05aebd4d72757d, type: 3}
+      propertyPath: TshirtModels.Array.data[1].Model
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: 8618c2f639cd6d34fb31c48fa6455314, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -580,4 +640,4 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 863290820}
   - {fileID: 893470976}
-  - {fileID: 347807799}
+  - {fileID: 459580060}

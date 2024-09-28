@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,14 +8,45 @@ using UnityEngine.UIElements;
 public class ModularClothingSystemManager : MonoBehaviour
 {
     public GameObject Model;
-    private GameObject oldModel;
-    private int counter = 5;
+    
     public UnityEngine.UI.Button TshirtSwapFor;
     public UnityEngine.UI.Button TshirtSwapPre;
+
+    [Serializable]
+    public class StringMeshPairPants
+    {
+        public string name;
+        public GameObject Model;
+    }
+    [Serializable]
+    public class StringMeshPairTshirt
+    {
+        public string name;
+        public GameObject Model;
+    }
+
+    public List<StringMeshPairPants> PantsModels = new List<StringMeshPairPants>();
+    public List<StringMeshPairTshirt> TshirtModels = new List<StringMeshPairTshirt>();
+    
+    private GameObject actualTshirtModel;
+    private GameObject actualPantsModel;
+    private int maxLengthTshirt;
+    private int maxLengthPants;
+    private int countTshirt = 0;
+    private int countPants = 0;
+    private GameObject tShirt;
+    private GameObject pants;
     void Start()
     {
         TshirtSwapFor.onClick.AddListener(ChangeModelFor);
         TshirtSwapPre.onClick.AddListener(ChangeModelPre);
+
+        actualTshirtModel = Model.transform.GetChild(2).gameObject;
+        actualPantsModel = Model.transform.GetChild(3).gameObject;
+
+        maxLengthPants = PantsModels.Count;
+        maxLengthTshirt = TshirtModels.Count;
+
     }
 
     // Update is called once per frame
@@ -25,30 +57,31 @@ public class ModularClothingSystemManager : MonoBehaviour
 
     void ChangeModelFor()
     {
-        oldModel = Model;
-        Destroy(Model);
-        if (counter == 5)
-            counter = 0;
+        Destroy(actualTshirtModel);
+        if (countTshirt < maxLengthTshirt)
+        {
+            actualTshirtModel = Instantiate(TshirtModels[countTshirt].Model, Model.transform);
+        }
         else
         {
-            counter++;
+            countTshirt = 0;
+            actualTshirtModel = Instantiate(TshirtModels[countTshirt].Model, Model.transform);
         }
-        Model = GameObject.CreatePrimitive((PrimitiveType)counter);
-        Model.transform.position = oldModel.transform.position;
+        countTshirt++;
     }
 
     void ChangeModelPre()
     {
-        oldModel = Model;
-        Destroy(Model);
-        if (counter == 0)
-            counter = 5;
+        Destroy(actualPantsModel);
+        if (countPants < maxLengthPants)
+        {
+            actualPantsModel = Instantiate(PantsModels[countPants].Model, Model.transform);
+        }
         else
         {
-            counter--;
+            countPants = 0;
+            actualPantsModel = Instantiate(PantsModels[countPants].Model, Model.transform);
         }
-
-        Model = GameObject.CreatePrimitive((PrimitiveType)counter);
-        Model.transform.position = oldModel.transform.position;
+        countPants++;
     }
 }

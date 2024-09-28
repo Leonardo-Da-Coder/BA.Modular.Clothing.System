@@ -468,9 +468,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f56659809957f4bad32f54b2d1fda7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Model: {fileID: 0}
-  TshirtSwapFor: {fileID: 0}
-  TshirtSwapPre: {fileID: 0}
+  Model: {fileID: 5449494433340610796}
+  TshirtSwapFor: {fileID: 2599773840281003857}
+  TshirtSwapPre: {fileID: 6968976193272724552}
+  PantsModels:
+  - name: BlackChino
+    Model: {fileID: 919132149155446097, guid: 5451e9566de6ae14d8241e1fc2dab39e, type: 3}
+  - name: GreenChino
+    Model: {fileID: 919132149155446097, guid: d687c8f33e41b6d478b37ab734df19cf, type: 3}
+  TshirtModels:
+  - name: BlackTshirt
+    Model: {fileID: 919132149155446097, guid: 65c87632d273c5445a2fcb840e0bd2ef, type: 3}
+  - name: BlackTshirt2
+    Model: {fileID: 919132149155446097, guid: 8618c2f639cd6d34fb31c48fa6455314, type: 3}
 --- !u!1 &7664848194630901914
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,14 +933,19 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c9407aa1ab842124ca6b66fcbb803756, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1478186710716933618}
+      addedObject: {fileID: 4912358868735949392}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c9407aa1ab842124ca6b66fcbb803756, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4912358868735949392}
+      addedObject: {fileID: 1478186710716933618}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9407aa1ab842124ca6b66fcbb803756, type: 3}
 --- !u!4 &4678025035746378326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c9407aa1ab842124ca6b66fcbb803756, type: 3}
+  m_PrefabInstance: {fileID: 5143418093941384637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5449494433340610796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c9407aa1ab842124ca6b66fcbb803756, type: 3}
   m_PrefabInstance: {fileID: 5143418093941384637}
   m_PrefabAsset: {fileID: 0}
