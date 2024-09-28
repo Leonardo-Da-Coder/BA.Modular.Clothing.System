@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraController : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    public Transform camera;
     // Start is called before the first frame update
     void Start()
     {
