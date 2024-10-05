@@ -8,32 +8,32 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: CharacterMaleDiffuse
-    second: {fileID: 2800000, guid: 354598946ca8f5947844ce218e06e13f, type: 3}
+    second: {fileID: 2800000, guid: aae5ea1e3ebdd944bb1738136bb7c0cf, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: CharacterMaleMetallic
-    second: {fileID: 2800000, guid: 6589ab2744f7c7044bedb4f98b8e48a0, type: 3}
+    second: {fileID: 2800000, guid: b2f4469d0583cac46bbf8f03ba729a24, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: CharacterMaleNormal
-    second: {fileID: 2800000, guid: 37b7cd0ff192d4845b6ff22199468355, type: 3}
+    second: {fileID: 2800000, guid: 7e2f8e775533a594c90ccecc4273940c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ClothesMaleDiffues
-    second: {fileID: 2800000, guid: 5e0b9d8efe72ed1459a19b3a1f7ff9db, type: 3}
+    second: {fileID: 2800000, guid: 254315604d03ab24db7fea261dc0951a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ClothesMaleMetallic
-    second: {fileID: 2800000, guid: f6db7d58a04c9cc43a30be8cce7f53b5, type: 3}
+    second: {fileID: 2800000, guid: 4e7c276d5b7fd8a44acf4397b0d00dd7, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ClothesMaleNormal
-    second: {fileID: 2800000, guid: 21daeed13d8cd3944bd4dd0c20aeb103, type: 3}
+    second: {fileID: 2800000, guid: d18326dd76d3b84488606b3fb11c9096, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
