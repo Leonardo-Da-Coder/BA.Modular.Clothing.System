@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30f64974-6ae7-4cbc-86a4-7245ab43e729" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BA.Modular.Clothing.System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BA.Modular.Clothing.System/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ModularClothing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ModularClothing.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ModularClothingSystemManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ModularClothingSystemManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +99,10 @@
       <workItem from="1727023243060" duration="19000" />
       <workItem from="1727023282389" duration="5000" />
       <workItem from="1727023334046" duration="3392000" />
-      <workItem from="1727557811363" duration="3111000" />
+      <workItem from="1727557811363" duration="3132000" />
+      <workItem from="1727696335840" duration="685000" />
+      <workItem from="1727864760201" duration="4320000" />
+      <workItem from="1728122787735" duration="658000" />
     </task>
     <servers />
   </component>
